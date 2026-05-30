@@ -15,6 +15,7 @@
       <nav class="nav" aria-label="页面导航">
         <a href="#demo">Demo</a>
         <a href="#delivery">交付包</a>
+        <a href="#case">案例</a>
         <a href="#pitch">投递</a>
         <a href="#contact">联系</a>
       </nav>
@@ -38,6 +39,7 @@
 
           <div class="hero-actions" aria-label="主要操作">
             <a class="primary-link" href="#contact">查看可接任务</a>
+            <a class="text-link" href="https://github.com/wildcxy/web3-freelance">GitHub 仓库</a>
             <a class="text-link" href="docs/outreach-template.md">投递话术模板</a>
           </div>
         </div>
@@ -138,6 +140,46 @@
         </div>
       </section>
 
+      <section class="case-section" id="case" aria-labelledby="case-title">
+        <div class="section-head">
+          <p class="eyebrow">Case Study</p>
+          <h2 id="case-title">从需求到交付的完整样例</h2>
+        </div>
+
+        <div class="case-layout">
+          <div class="case-copy">
+            <h3>Proof Credential NFT Mint Demo</h3>
+            <p>
+              这个样例模拟一个社区活动凭证领取流程：用户连接钱包、领取 NFT 凭证，并获得清晰的交易状态反馈。它不是主网金融产品，而是一个适合测试网、活动凭证和教程场景的轻量原型。
+            </p>
+            <a class="text-link" href="docs/case-study.md">查看案例说明文档</a>
+          </div>
+
+          <ol class="process-list" aria-label="交付流程">
+            <li>
+              <span>01</span>
+              <strong>需求拆解</strong>
+              <p>明确用户、场景、功能边界和不触碰真实资金的安全范围。</p>
+            </li>
+            <li>
+              <span>02</span>
+              <strong>原型交付</strong>
+              <p>完成响应式页面、Mint 状态、投递话术和静态演示交互。</p>
+            </li>
+            <li>
+              <span>03</span>
+              <strong>文档配套</strong>
+              <p>补齐 README、PRD、架构说明、项目分析和上线检查清单。</p>
+            </li>
+            <li>
+              <span>04</span>
+              <strong>升级路线</strong>
+              <p>可继续接入 wagmi / viem、Base Sepolia、Foundry 测试和部署脚本。</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
       <section class="tool-section" id="pitch" aria-labelledby="pitch-title">
         <div class="pitch-copy">
           <p class="eyebrow">Outreach Kit</p>
@@ -154,7 +196,7 @@
           </label>
           <label>
             <span>作品链接</span>
-            <input id="linkInput" type="text" value="https://your-demo-link.example" />
+            <input id="linkInput" type="text" value="https://wildcxy.github.io/web3-freelance/" />
           </label>
           <label>
             <span>目标任务</span>
@@ -174,8 +216,9 @@
         </form>
 
         <output class="pitch-output" id="pitchOutput">
-          Hi, 我是你的名字。我可以协助 Web3 中文内容 / 教程，并能用 AI 辅助提升交付效率。这里是我的 Web3 Demo： https://your-demo-link.example
+          Hi, 我是你的名字。我可以协助 Web3 中文内容 / 教程，并能用 AI 辅助提升交付效率。这里是我的 Web3 Demo： https://wildcxy.github.io/web3-freelance/
         </output>
+        <button class="copy-btn" id="copyPitchButton" type="button">复制话术</button>
       </section>
 
       <section class="contact-section" id="contact" aria-labelledby="contact-title">

@@ -6,7 +6,7 @@
 
 ## 在线信息
 
-- 在线 Demo：待部署后替换为你的链接
+- 在线 Demo：`https://wildcxy.github.io/web3-freelance/`
 - GitHub 仓库：`https://github.com/wildcxy/web3-freelance.git`
 - 联系方式：`your-email@example.com` / `https://t.me/yourhandle`
 
@@ -42,8 +42,11 @@ web3-freelance-main/
   docs/
     PRD.md
     requirements-architecture.md
+    case-study.md
+    deployment-guide.md
     project-analysis.md
     outreach-template.md
+    service-menu.md
     launch-checklist.md
   screenshots/
     demo-hero.png
@@ -58,8 +61,8 @@ web3-freelance-main/
 
 1. 替换页面和 README 里的联系方式。
 2. 上传到 GitHub。
-3. 部署到 GitHub Pages、Vercel、Netlify 或 Cloudflare Pages。
-4. 更新 README 中的在线 Demo 和 GitHub 仓库链接。
+3. 在 GitHub 仓库开启 Pages，选择 GitHub Actions 部署。
+4. 等待 Actions 完成后访问在线 Demo。
 5. 重新截图并替换 `screenshots/` 下的图片。
 
 ## 后续升级路线

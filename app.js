@@ -9,6 +9,7 @@ const nameInput = document.querySelector("#nameInput");
 const linkInput = document.querySelector("#linkInput");
 const roleInput = document.querySelector("#roleInput");
 const pitchOutput = document.querySelector("#pitchOutput");
+const copyPitchButton = document.querySelector("#copyPitchButton");
 
 let connected = false;
 let minted = false;
@@ -56,4 +57,19 @@ pitchForm.addEventListener("submit", (event) => {
   const role = roleInput.value;
 
   pitchOutput.value = `Hi，我是 ${name}。我正在接 Web3 兼职，方向是 ${role}。\n\n我做了一个 Web3 样品站，里面包含 NFT Mint 页面、合约样例、PRD、架构文档和投递材料：${link}\n\n我会使用 AI 辅助提升交付效率，但会自己负责需求拆解、本地运行、检查、文档整理和最终交付。可以先从一个小任务开始，例如中文教程、项目分析、钱包连接页面、NFT mint demo 或社区内容整理。`;
+});
+
+copyPitchButton.addEventListener("click", async () => {
+  const text = pitchOutput.value || pitchOutput.textContent;
+
+  try {
+    await navigator.clipboard.writeText(text.trim());
+    copyPitchButton.textContent = "已复制";
+  } catch {
+    copyPitchButton.textContent = "请手动复制";
+  }
+
+  window.setTimeout(() => {
+    copyPitchButton.textContent = "复制话术";
+  }, 1800);
 });

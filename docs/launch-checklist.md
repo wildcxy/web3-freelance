@@ -21,7 +21,8 @@
 - [ ] 已初始化 Git 仓库。
 - [ ] 已提交首个 commit。
 - [ ] 已上传到 GitHub。
-- [ ] 已部署到 GitHub Pages / Vercel / Netlify / Cloudflare Pages。
+- [ ] GitHub Pages 已设置为 GitHub Actions 部署。
+- [ ] Actions 中的 Pages 工作流已成功运行。
 - [ ] 已重新截图并更新 `screenshots/demo-hero.png` 和 `screenshots/demo-fullpage.png`。
 
 ## 投递材料

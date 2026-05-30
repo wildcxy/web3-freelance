@@ -417,6 +417,7 @@ button svg {
 
 .section-band,
 .tool-section,
+.case-section,
 .contact-section {
   padding: 72px clamp(20px, 5vw, 72px);
 }
@@ -459,6 +460,61 @@ button svg {
   margin-bottom: 38px;
   color: var(--lime);
   font-weight: 900;
+}
+
+.case-section {
+  background: #ffffff;
+}
+
+.case-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(420px, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.case-copy {
+  max-width: 560px;
+}
+
+.case-copy p {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.process-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.process-list li {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 4px 14px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+
+.process-list span {
+  grid-row: span 2;
+  color: var(--teal-dark);
+  font-weight: 900;
+}
+
+.process-list strong {
+  font-size: 18px;
+}
+
+.process-list p {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.65;
 }
 
 .tool-section {
@@ -520,6 +576,17 @@ select:focus {
   font-size: 15px;
   line-height: 1.8;
   white-space: pre-wrap;
+}
+
+.copy-btn {
+  grid-column: 2;
+  justify-self: start;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 8px;
+  background: var(--graphite);
+  color: #fff;
+  font-weight: 900;
 }
 
 .contact-section {
@@ -600,6 +667,7 @@ select:focus {
 
 @media (max-width: 1080px) {
   .workspace,
+  .case-layout,
   .tool-section {
     grid-template-columns: 1fr;
   }
@@ -613,6 +681,10 @@ select:focus {
   }
 
   .pitch-output {
+    grid-column: 1;
+  }
+
+  .copy-btn {
     grid-column: 1;
   }
 
@@ -666,6 +738,7 @@ select:focus {
   .workspace,
   .section-band,
   .tool-section,
+  .case-section,
   .contact-section {
     padding-left: 14px;
     padding-right: 14px;
