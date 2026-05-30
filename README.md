@@ -7,7 +7,7 @@
 ## 在线信息
 
 - 在线 Demo：待部署后替换为你的链接
-- GitHub 仓库：待上传后替换为你的链接
+- GitHub 仓库：`https://github.com/wildcxy/web3-freelance.git`
 - 联系方式：`your-email@example.com` / `https://t.me/yourhandle`
 
 ## 适合投递的任务
