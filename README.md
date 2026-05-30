@@ -66,6 +66,8 @@ web3-freelance-main/
     deployment-guide.md
     freelance-action-plan.md
     outreach-tracker-template.md
+    proposals/
+      onchainhunt-gtm-proposal.md
     project-analysis.md
     outreach-template.md
     service-menu.md
