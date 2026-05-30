@@ -636,7 +636,8 @@ select:focus {
   gap: 10px;
 }
 
-.contact-links a {
+.contact-links a,
+.contact-links span {
   display: block;
   min-width: 0;
   padding: 13px 14px;
@@ -647,6 +648,10 @@ select:focus {
   font-weight: 900;
   text-decoration: none;
   overflow-wrap: anywhere;
+}
+
+.contact-links span {
+  color: var(--muted);
 }
 
 .footer {

@@ -8,7 +8,7 @@
 
 - 在线 Demo：`https://wildcxy.github.io/web3-freelance/`
 - GitHub 仓库：`https://github.com/wildcxy/web3-freelance.git`
-- 联系方式：`your-email@example.com` / `https://t.me/yourhandle`
+- 联系方式：`06161225x@gmail.com`
 
 ## 适合投递的任务
 
