@@ -29,6 +29,8 @@
 
 - [ ] README 能说明项目价值、技术栈、适合任务和联系方式。
 - [ ] `docs/outreach-template.md` 有中文和英文版本。
+- [ ] `docs/freelance-action-plan.md` 有每日投递计划。
+- [ ] `docs/outreach-tracker-template.md` 可用于记录投递状态。
 - [ ] `docs/project-analysis.md` 能展示项目分析能力。
 - [ ] `docs/PRD.md` 和 `docs/requirements-architecture.md` 能展示产品与文档交付能力。
 

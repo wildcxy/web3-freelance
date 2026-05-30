@@ -4,11 +4,21 @@
 
 > 当前版本是静态演示 MVP，不连接真实钱包、不发起真实链上交易、不处理用户资产。它适合用于作品集展示、客户沟通和后续测试网版本改造。
 
+![Web3 接单样品站截图](screenshots/demo-hero.png)
+
 ## 在线信息
 
 - 在线 Demo：`https://wildcxy.github.io/web3-freelance/`
 - GitHub 仓库：`https://github.com/wildcxy/web3-freelance.git`
 - 联系方式：`06161225x@gmail.com` / Telegram：`https://t.me/clam_cxy`
+
+## 个人定位
+
+我正在接 Web3 兼职，方向是中文内容、项目分析、社区运营支持和轻量 dApp 前端 Demo。可以使用 AI 辅助提升效率，但会自己负责需求拆解、本地运行、检查、文档整理和最终交付。
+
+## English Summary
+
+I am looking for Web3 freelance tasks around Chinese content, project research, community support, and lightweight dApp frontend demos. This portfolio shows an NFT Mint demo, a sample ERC-721 contract, product documentation, project analysis, and outreach materials.
 
 ## 适合投递的任务
 
@@ -27,6 +37,16 @@
 - PRD、架构文档、项目分析和中英文投递模板
 - 清晰说明 AI 辅助边界：本人负责需求拆解、运行检查、文档和最终交付
 
+## 可合作的小任务
+
+| 类型 | 可交付内容 | 适合周期 |
+| --- | --- | --- |
+| 中文内容 / 教程 | 项目介绍、测试网教程、FAQ、公告整理 | 1-3 天 |
+| 社区运营支持 | Telegram / Discord 内容日历、活动文案、周报 | 1-3 天 |
+| 项目分析 | 项目定位、用户流程、风险边界、中文介绍 | 1-2 天 |
+| dApp 前端 Demo | 钱包连接页、Mint 页面、交易状态 UI | 2-5 天 |
+| 测试网原型升级 | wagmi / viem 连接钱包、测试网交互 | 按需求评估 |
+
 ## 文件结构
 
 ```text
@@ -44,6 +64,8 @@ web3-freelance-main/
     requirements-architecture.md
     case-study.md
     deployment-guide.md
+    freelance-action-plan.md
+    outreach-tracker-template.md
     project-analysis.md
     outreach-template.md
     service-menu.md
