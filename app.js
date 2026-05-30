@@ -55,5 +55,5 @@ pitchForm.addEventListener("submit", (event) => {
   const link = linkInput.value.trim() || "https://your-demo-link.example";
   const role = roleInput.value;
 
-  pitchOutput.value = `Hi，我是 ${name}。我正在接 Web3 兼职，方向是 ${role}。我使用 AI 辅助提升交付效率，但会自己完成本地运行、检查、整理文档和最终交付。\n\n这里是我的 Web3 样品站：${link}\n\n我可以先从一个小任务开始，例如中文教程、项目分析、钱包连接页面、NFT mint demo 或社区内容整理。`;
+  pitchOutput.value = `Hi，我是 ${name}。我正在接 Web3 兼职，方向是 ${role}。\n\n我做了一个 Web3 样品站，里面包含 NFT Mint 页面、合约样例、PRD、架构文档和投递材料：${link}\n\n我会使用 AI 辅助提升交付效率，但会自己负责需求拆解、本地运行、检查、文档整理和最终交付。可以先从一个小任务开始，例如中文教程、项目分析、钱包连接页面、NFT mint demo 或社区内容整理。`;
 });

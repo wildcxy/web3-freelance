@@ -176,6 +176,36 @@ h3 {
   font-weight: 800;
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.primary-link,
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.primary-link {
+  padding: 0 16px;
+  background: var(--teal);
+  color: #fff;
+  box-shadow: 0 12px 24px rgba(7, 128, 111, 0.18);
+}
+
+.text-link {
+  color: var(--teal-dark);
+}
+
 .demo-shell {
   display: grid;
   grid-template-columns: minmax(260px, 0.92fr) minmax(320px, 1.08fr);
@@ -378,8 +408,16 @@ button svg {
   line-height: 1.5;
 }
 
+.demo-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
 .section-band,
-.tool-section {
+.tool-section,
+.contact-section {
   padding: 72px clamp(20px, 5vw, 72px);
 }
 
@@ -484,6 +522,66 @@ select:focus {
   white-space: pre-wrap;
 }
 
+.contact-section {
+  background: #f0f6f4;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.service-item,
+.contact-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.service-item {
+  min-height: 172px;
+  padding: 22px;
+}
+
+.service-item p,
+.contact-panel p {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.contact-panel {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(280px, 0.7fr);
+  gap: 24px;
+  align-items: center;
+  padding: 24px;
+}
+
+.contact-panel h3 {
+  font-size: 24px;
+}
+
+.contact-links {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-links a {
+  display: block;
+  min-width: 0;
+  padding: 13px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--teal-dark);
+  font-weight: 900;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -517,6 +615,10 @@ select:focus {
   .pitch-output {
     grid-column: 1;
   }
+
+  .contact-panel {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 760px) {
@@ -542,6 +644,7 @@ select:focus {
 
   .demo-shell,
   .delivery-grid,
+  .service-grid,
   .action-row {
     grid-template-columns: 1fr;
   }
@@ -562,7 +665,8 @@ select:focus {
 @media (max-width: 420px) {
   .workspace,
   .section-band,
-  .tool-section {
+  .tool-section,
+  .contact-section {
     padding-left: 14px;
     padding-right: 14px;
   }
